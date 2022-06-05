@@ -1,0 +1,158 @@
+/* Reset Css */
+@charset "utf-8";
+
+:root {
+    --main-color: #B07A56;
+    --text-color: #43544A;
+    --box-shadow:0 0 10px rgb(0, 0, 0, 0.3);
+    --button: 15px 50px;
+}
+
+html {
+    scroll-behavior: smooth;
+
+}
+
+@font-face {
+    font-family: fontbody;
+    src: url(Font/Belleza/Belleza-Regular.ttf)
+}
+
+@font-face {
+    font-family: fontdecorate;
+    src: url(Font/a-auto-signature/aAutoSignature.otf)
+}
+
+
+
+#bgnav {
+    /* background-color:#B07A56 ; */
+    position: absolute;
+    top: 20px;
+}
+
+/* ================ About Us +============ */
+
+#bgnav a {
+    color: #43544A;
+}
+
+#nav li a, .subnav li a {
+    color: #43544A;
+}
+
+.icon_buy-check_product a{
+z-index: 1;
+}
+
+
+#body_aboutus {
+    margin: 0;
+    padding: 0;
+}
+#body_aboutus p {
+font-family: fontbody;
+ font-size: 200px;
+ color:#43544A ;
+ opacity: 0.5;
+ margin-top: 90px;
+ margin-left: 130px;
+}
+
+.body_picture1 {
+
+    height: 550px;
+    background-image: url(img/About-video-img-2048x746.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    top: -110px;
+    
+}
+
+
+/* body 2 */
+
+#body_aboutus2 {
+    margin-top: 40px;
+    margin-bottom: 175px;
+}
+.aboutus_ourachive, .aboutus_award, .aboutus_recognize {
+    /* background-color: #B07A56; */
+    height: 130px;
+}
+
+.aboutus_award, .aboutus_recognize {
+    margin-top: 6%;
+    
+}
+
+.aboutus_award h3,.aboutus_recognize  h3 {
+    margin-left: 10%;
+}
+
+/*  Clients */
+
+#logo_clients {
+    /* background-color: gray; */
+    margin-bottom: 175px;
+   
+}
+.logo_clients_items a img {
+    width: 100px;
+    margin-top: 30px;
+    margin-left: 20%;
+   
+}
+
+/* Picture banner */
+#picture_banner {
+    height: 660px;
+    background-image: url(img/banner_header/banner_nav.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 175px;
+    background-attachment: fixed;
+}
+
+/* contact_aboutus */
+#ContactAndLocation {
+    margin-bottom: 175px;
+}
+
+#contact_aboutus  form {
+    margin-top: 30px;
+}
+
+#location_aboutus iframe {
+    margin-top: 35px;
+    margin-left: 10%;
+    
+    
+}
+
+    .form-container {
+      padding: 5%;
+      /* background: #ffffff; */
+      /* border: 9px solid #f2f2f2;             */
+      max-width: 520px;
+      margin: auto;
+    }
+ form label {
+     color: #43544A;
+ }
+
+
+
+#reused_form input, textarea 
+{
+  width: 100%;
+  border: #43544A 1px solid;
+
+}    
+textarea
+{
+  height: 150px;
+  border: #43544A 1px solid;
+}
+
